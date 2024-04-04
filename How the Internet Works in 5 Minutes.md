@@ -36,7 +36,7 @@ When you send a message or file online, your computer packages it into a "packet
 Routers along the internet's "pathways" (physical cables or wireless connections) receive and examine the packet:
    - Each router "unwraps" a layer of information on the packet, revealing the intended destination address.
 
-**3. Router Decision-Making:****3. Router Decision-Making:**
+**3. Router Decision-Making:**
 Based on the address, routers determine the next destination for the packet, choosing the most efficient path to reach its goal.
 
 **4. Delivery to Receiver:**
