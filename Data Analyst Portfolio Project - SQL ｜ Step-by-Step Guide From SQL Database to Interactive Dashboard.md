@@ -201,7 +201,9 @@ CREATE TABLE Ingredient (
   WeightUnit VARCHAR(50)IngredientName VARCHAR(255),
   WeightUnit VARCHAR(50)
 );
-```## How to Create Database Tables and Import Data
+```
+
+## How to Create Database Tables and Import Data
 
 **Creating Tables:**
 
@@ -331,7 +333,9 @@ FROM
   ingredient_quantity_and_cost AS iqac
 GROUP BY
   iqac.ing_id, iqac.ing_name;
-```**Custom SQL Queries for Data Analysis**
+```
+
+**Custom SQL Queries for Data Analysis**
 
 **Objectives:**
 
@@ -666,7 +670,9 @@ var blendedTable = dataStudio.blendTables([table1, table2], ['Ingredient Name'])
 
 // Delete original tables
 dataStudio.deleteTables([table1, table2]);
-```## Creating a Dashboard in Google Data Studio
+```
+
+## Creating a Dashboard in Google Data Studio
 ### Step 1: Set Up Data Source
 
 - Select "Data" -> "Create New Data Source".
